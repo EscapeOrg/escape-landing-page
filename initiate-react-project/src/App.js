@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Features from './pages/Features';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home></Home>
       <About></About>
       <Features></Features>
+      <Footer></Footer>
     </div>
   );
 }
