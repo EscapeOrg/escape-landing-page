@@ -1,0 +1,25 @@
+#home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    left: 150px;
+    top: 275px;
+}
+
+.install-button {
+    background-color: blue;
+    width: 200px;
+    height: 75px;
+    border: none;
+    color: white;
+    line-height: 75px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 32px;
+    margin: 30px auto;
+    text-align: center;
+  }
