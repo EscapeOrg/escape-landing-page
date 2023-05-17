@@ -1,4 +1,5 @@
-import "../styles/Footer.css"
+import "../styles/Footer.css";
+import ContactUs from "./ContactUs";
 
 
 function Footer() {
@@ -8,7 +9,8 @@ function Footer() {
 
             <div id='footer-container'>
                 <div className="send-message">
-                        <h4>Send us a message:</h4>
+                    <h4>Send us a message:</h4>
+                    <ContactUs></ContactUs>
                 </div>
                 
                 <div className='info-container'>
