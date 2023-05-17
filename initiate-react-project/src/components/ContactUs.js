@@ -7,15 +7,15 @@ import {useEffect} from 'react';
 function ContactUs() {
 
     // // EmailJS KEYS
-    // const PUBLIC_KEY = "ZJpkNgDevLRB6ogob";
-    // const SERVICE_ID = "service_daal8f8";
-    // const TEMPLATE_ID = "template_qhg9u0r";
+    const PUBLIC_KEY = "ZJpkNgDevLRB6ogob";
+    const SERVICE_ID = "service_daal8f8";
+    const TEMPLATE_ID = "template_w0f6cx8";
 
 
-    // FOR TESTING USE
-    const PUBLIC_KEY = "JvcL_2oMY-wer8Ida";
-    const SERVICE_ID = "service_vjm4zda";
-    const TEMPLATE_ID = "template_wd2eh73";
+    // // FOR TESTING USE
+    // const PUBLIC_KEY = "JvcL_2oMY-wer8Ida";
+    // const SERVICE_ID = "service_vjm4zda";
+    // const TEMPLATE_ID = "template_wd2eh73";
 
     emailjs.init(PUBLIC_KEY);
 
