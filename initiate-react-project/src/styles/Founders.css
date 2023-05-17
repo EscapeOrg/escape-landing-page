@@ -1,0 +1,41 @@
+#founders {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#founders-text-container {
+    margin-left: 10%;
+}
+
+.founders-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-self: flex-end;
+    margin-right: 10%;
+}
+
+.founders-frames {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+
+.founders-frame-img img {
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
