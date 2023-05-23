@@ -6,10 +6,10 @@ function Home() {
       <div id="home">
         <div id="home-container">
             <div id="home-text">
-                <h1 className="primary-heading">
+                <h1 className="home-heading">
                     ESCape
                 </h1>
-                <p1 className="primary-text">
+                <p1 className="home-text">
                   The Future of Social Networking is Here.
                 </p1>
 

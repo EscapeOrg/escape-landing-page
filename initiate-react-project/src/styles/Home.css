@@ -28,14 +28,10 @@
     text-align: center;
   }
 
-  #home-text {
-    font-size: +4;
+  .home-heading {
+    font-size: 50px;
   }
 
-  .primary-heading {
-    font-size: 60px;
-  }
-
-  .primary-text {
-    font-size: 28px;
+  .home-text {
+    font-size: 20px;
   }
