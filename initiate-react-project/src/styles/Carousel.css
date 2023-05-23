@@ -1,0 +1,28 @@
+.carousel {
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-content img {
+  max-height: 400px;
+  min-height: 300px;
+  width: auto;
+
+}
+
+.carousel-arrow {
+  height: 50px;
+  width: auto;
+}
+
+.carousel-arrow:hover {
+  cursor: pointer; 
+}

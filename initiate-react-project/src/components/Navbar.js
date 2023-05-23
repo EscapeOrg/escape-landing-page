@@ -8,10 +8,10 @@ function Navbar() {
                 <img id="navbarLogo" src ={logo}/>
             </div>
             <div className="navbarItem-container">
-                <li class="navbarItem">Test</li>
-                <li class="navbarItem">Test</li>
-                <li class="navbarItem">Test</li>
-                <li class="navbarItem">Test</li>
+                <li className="navbarItem">Test</li>
+                <li className="navbarItem">Test</li>
+                <li className="navbarItem">Test</li>
+                <li className="navbarItem">Test</li>
             </div>
 
         </ul>

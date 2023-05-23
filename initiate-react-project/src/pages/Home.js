@@ -9,9 +9,9 @@ function Home() {
                 <h1 className="home-heading">
                     ESCape
                 </h1>
-                <p1 className="home-text">
+                <p className="home-text">
                   The Future of Social Networking is Here.
-                </p1>
+                </p>
 
             </div>
             <div className="install-button">
