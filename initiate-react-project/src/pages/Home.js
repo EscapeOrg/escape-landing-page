@@ -7,10 +7,10 @@ function Home() {
         <div id="home-container">
             <div id="home-text">
                 <h1 className="primary-heading">
-                    Heading
+                    ESCape
                 </h1>
                 <p1 className="primary-text">
-                    Description Description Description Description Description Description Description
+                  The Future of Social Networking is Here.
                 </p1>
 
             </div>

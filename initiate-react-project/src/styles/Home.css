@@ -27,3 +27,15 @@
     margin: 30px auto;
     text-align: center;
   }
+
+  #home-text {
+    font-size: +4;
+  }
+
+  .primary-heading {
+    font-size: 60px;
+  }
+
+  .primary-text {
+    font-size: 28px;
+  }
