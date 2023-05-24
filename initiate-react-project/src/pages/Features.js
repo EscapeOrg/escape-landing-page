@@ -45,7 +45,7 @@ const Features = () => {
 
   return (
     <div id='features'>
-      <div className='primary-heading'>
+      <div className='primary-heading' id='feature-heading'>
         <h1>Our Features</h1>
       </div>
       <div className='carousel-container'>

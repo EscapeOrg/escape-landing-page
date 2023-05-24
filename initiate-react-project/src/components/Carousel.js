@@ -3,8 +3,9 @@ import "../styles/Carousel.css"
 import {TfiAngleLeft, TfiAngleRight} from "react-icons/tfi"
 
 function Carousel ({items}) {
+  // Keep track of slide index
   const [currentIndex, setCurrentIndex] = useState(0);
-
+  
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex === items.length - 1 ? 0 : prevIndex + 1));
   };
