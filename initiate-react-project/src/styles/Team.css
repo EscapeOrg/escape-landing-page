@@ -1,0 +1,58 @@
+#team {
+    height: 100vh;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+
+}
+
+#team-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.frames-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.team-frames {
+    width: 300px;
+    height: 350px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.team-frame-img img {
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    
+}
+
+.team-frame-text {
+    font-size: 14px;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbarItem:hover{
+    cursor: pointer;
+}
+
+#navbarLogo {
+    height: 60px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.navbarItem-container {
+    display: flex;
+}
+
+.navbarItem {
+    margin-right: 50px;
+}
